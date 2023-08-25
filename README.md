@@ -2,10 +2,6 @@
 
 ## I'm a potential self driven Frontend Developer based in Uganda. :uganda:
 
-- 🔭 Check out my latest MERN Project: [Norda E-commerce site!](https://norda-ecommerce.netlify.app)
-
-- 🌱 I’m currently learning Grapgql and Typescript.
-
 - 👯 I’m looking to collaborate with other FullStack Developers.
 
 - 🥅 2023 Goals: Contribute more to Open Source Projects.
@@ -43,9 +39,9 @@
 
 ## &#x1f4c8; Quick stats about me
 
-| Github Stats                             | Top Languages                                    |
-| ---------------------------------------- | ------------------------------------------------ |
-| ![Dumani's github stats][github_stats] | ![Dumani's top languages][top_languages_gitub] |
+| Top Languages                                    |
+| ------------------------------------------------ |
+| ![Dumani's top languages][top_languages_gitub] |
 
 [github_stats]: https://github-readme-stats.vercel.app/api?username=dumanimedia&show_icons=true&title_color=f6c32c&icon_color=f6c32c&text_color=9f9f9f&bg_color=151515&count_private=true
 [top_Languages_gitub]: https://github-readme-stats.vercel.app/api/top-langs/?username=dumanimedia&show_icons=true&title_color=f6c32c&icon_color=f6c32c&text_color=9f9f9f&bg_color=151515&count_private=true&layout=compact
