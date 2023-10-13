@@ -1,6 +1,16 @@
 <p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Space+Grotesk&&weight=600&size=26&center=true&color=F76A22&vCenter=true&lines=Hello+everyone!!!;We+are+Dumani+Media.;For+full-Stack+development." alt="typing intro">
+<img src="https://readme-typing-svg.herokuapp.com?font=Space+Grotesk&&weight=600&size=26&color=F76A22&&lines=Hello+everyone!!!;We+are+Dumani+Media.;For+full-Stack+development." alt="typing intro">
 </p>
+
+## I'm a potential self driven Frontend Developer based in Uganda. :uganda:
+
+- 🔭 Check out my latest Project: [Mission Games E-commerce site!](https://missiongamesbh.com)
+
+- 🌱 I’m currently learning Mobile development.
+
+- 👯 I’m looking to collaborate with other FullStack Developers.
+
+- 🥅 2024 Goals: Contribute more to Open Source Projects.
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
