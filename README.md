@@ -4,7 +4,7 @@
 
 ## I'm a potential self driven Frontend Developer based in Uganda. :uganda:
 
-- 🔭 Check out my latest Project: [Mission Games E-commerce site!](https://missiongamesbh.com)
+- 🔭 Check out my latest Project: [Mission Games E-commerce site!](https://www.missiongamesbh.com)
 
 - 🌱 I’m currently learning Mobile development.
 
