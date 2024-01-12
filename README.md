@@ -45,7 +45,6 @@
 ### &#x1f4c8; Quick stats
 
 ![Dumani Media's top languages][top_languages_gitub]
-![Dumani Media's github stats][github_stats]
 
 <!-- ![Dumani Media's GitHub stats][github_stats] -->
 
