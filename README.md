@@ -46,7 +46,7 @@
 
 ![Dumani Media's top languages][top_languages_gitub]
 
-<!-- ![Dumani Media's GitHub stats][github_stats] -->
+![Dumani Media's GitHub stats][github_stats]
 
 [github_stats]: https://github-readme-stats.vercel.app/api?username=dumanimedia&show_icons=true&title_color=f6c32c&icon_color=f6c32c&text_color=9f9f9f&bg_color=151515&count_private=true
 [top_Languages_gitub]: https://github-readme-stats.vercel.app/api/top-langs/?username=dumanimedia&show_icons=true&title_color=f6c32c&icon_color=f6c32c&text_color=9f9f9f&bg_color=151515&count_private=true&layout=compact
