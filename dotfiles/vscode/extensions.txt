@@ -1,0 +1,13 @@
+Run code --list-extensions > extensions.txt to generate
+
+1. biomejs.biome
+2. bradlc.vscode-tailwindcss
+3. kisstkondoros.vscode-gutter-preview
+4. ms-python.black-formatter
+5. ms-python.debugpy
+6. ms-python.python
+7. ms-python.vscode-pylance
+8. ms-python.vscode-python-envs
+9. naumovs.color-highlight
+10. vscode-icons-team.vscode-icons
+11. vscodevim.vim

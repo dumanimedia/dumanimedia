@@ -1,0 +1,181 @@
+{
+	"chat.disableAIFeatures": true,
+	"editor.formatOnSave": true,
+	"editor.minimap.enabled": false,
+	"breadcrumbs.enabled": false,
+	"workbench.iconTheme": "vscode-icons",
+	"editor.fontFamily": "JetBrainsMono Nerd Font Mono",
+	"editor.linkedEditing": true,
+	"editor.fontLigatures": true,
+
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+
+	"vim.leader": "<Space>",
+	"vim.useSystemClipboard": true,
+	"vim.useCtrlKeys": true,
+	"vim.hlsearch": true,
+	"vim.incsearch": true,
+	"vim.ignorecase": true,
+	"vim.smartcase": true,
+
+	// Enable relative line numbers (Vim style)
+	"editor.lineNumbers": "relative",
+
+	// Cursor configuration
+	"editor.cursorBlinking": "solid",
+	"editor.cursorSmoothCaretAnimation": "off",
+
+	// Disable VSCode's native ctrl+key shortcuts that conflict with Vim
+	"vim.handleKeys": {
+		"<C-d>": true,
+		"<C-s>": false,
+		"<C-z>": false
+	},
+
+	"vim.normalModeKeyBindingsNonRecursive": [
+		// Move lines up/down
+		{
+			"before": ["<A-j>"],
+			"commands": ["editor.action.moveLinesDownAction"]
+		},
+		{
+			"before": ["<A-k>"],
+			"commands": ["editor.action.moveLinesUpAction"]
+		},
+		// File operations
+		{
+			"before": ["<leader>", "w"],
+			"commands": ["workbench.action.files.save"]
+		},
+		{
+			"before": ["<leader>", "q"],
+			"commands": ["workbench.action.closeActiveEditor"]
+		},
+		{
+			"before": ["<leader>", "f", "f"],
+			"commands": ["workbench.action.quickOpen"]
+		},
+		{
+			"before": ["<leader>", "f", "r"],
+			"commands": ["workbench.action.openRecent"]
+		},
+		{
+			"before": ["<leader>", "f", "g"],
+			"commands": ["workbench.action.findInFiles"]
+		},
+
+		// File explorer toggle
+		{
+			"before": ["<leader>", "e"],
+			"commands": ["workbench.view.explorer"]
+		},
+
+		// Buffer/Tab navigation
+		{
+			"before": ["<leader>", "b", "d"],
+			"commands": ["workbench.action.closeActiveEditor"]
+		},
+		{
+			"before": ["<leader>", "b", "n"],
+			"commands": ["workbench.action.nextEditor"]
+		},
+		{
+			"before": ["<leader>", "b", "p"],
+			"commands": ["workbench.action.previousEditor"]
+		},
+
+		// Window/Split navigation
+		{
+			"before": ["<leader>", "|"],
+			"commands": ["workbench.action.splitEditorRight"]
+		},
+		{
+			"before": ["<leader>", "-"],
+			"commands": ["workbench.action.splitEditorDown"]
+		},
+
+		// Code actions (LSP-like, but using VSCode)
+		{
+			"before": ["<leader>", "c", "a"],
+			"commands": ["editor.action.quickFix"]
+		},
+		{
+			"before": ["<leader>", "c", "r"],
+			"commands": ["editor.action.rename"]
+		},
+		{
+			"before": ["<leader>", "c", "f"],
+			"commands": ["editor.action.formatDocument"]
+		},
+
+		// Go to definition / references
+		{
+			"before": ["g", "d"],
+			"commands": ["editor.action.revealDefinition"]
+		},
+		{
+			"before": ["g", "r"],
+			"commands": ["editor.action.goToReferences"]
+		},
+		{
+			"before": ["g", "I"],
+			"commands": ["editor.action.goToImplementation"]
+		},
+
+		// Search and replace
+		{
+			"before": ["<leader>", "s", "r"],
+			"commands": ["editor.action.startFindReplaceAction"]
+		},
+
+		// Terminal toggle
+		{
+			"before": ["<leader>", "`"],
+			// "commands": ["workbench.action.terminal.toggleTerminal"]
+			"commands": ["workbench.action.togglePanel"]
+		},
+
+		// Clear search highlight
+		{
+			"before": ["<leader>", "h"],
+			"commands": [":nohl"]
+		}
+	],
+
+	"vim.visualModeKeyBindingsNonRecursive": [
+		// Move lines up/down (like LazyVim)
+		{
+			"before": ["J"],
+			"commands": ["editor.action.moveLinesDownAction"]
+		},
+		{
+			"before": ["K"],
+			"commands": ["editor.action.moveLinesUpAction"]
+		},
+
+		// Stay in visual mode after indent
+		{
+			"before": [">"],
+			"commands": ["editor.action.indentLines"]
+		},
+		{
+			"before": ["<"],
+			"commands": ["editor.action.outdentLines"]
+		}
+	],
+
+	"vim.insertModeKeyBindings": [
+		{
+			"before": ["j", "j"],
+			"after": ["<Esc>"]
+		}
+	]
+}
