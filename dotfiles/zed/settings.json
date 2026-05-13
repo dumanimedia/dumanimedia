@@ -1,0 +1,57 @@
+{
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+  },
+  "session": {
+    "trust_all_worktrees": true,
+  },
+  "vim_mode": true,
+  "vim": {
+    "use_system_clipboard": "always",
+    "toggle_relative_line_numbers": true,
+    "use_smartcase_find": true,
+  },
+  "base_keymap": "VSCode",
+  "gutter": {
+    "line_numbers": true,
+  },
+  "minimap": {
+    "show": "never",
+  },
+  "cursor_blink": false,
+  "buffer_font_family": "FiraCode Nerd Font",
+  "linked_edits": true,
+  "soft_wrap": "editor_width",
+  "icon_theme": "VSCode Icons for Zed (Dark)",
+  "ui_font_size": 14,
+  "buffer_font_size": 13,
+  "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "One Dark Pro",
+  },
+  "toolbar": {
+    "breadcrumbs": false,
+    "quick_actions": false,
+    "selections_menu": false,
+  },
+
+  "languages": {
+    "JSON": { "formatter": { "language_server": { "name": "biome" } } },
+    "JavaScript": { "formatter": { "language_server": { "name": "biome" } } },
+
+    "TSX": {
+      "formatter": { "language_server": { "name": "biome" } },
+      "code_actions_on_format": {
+        "source.organizeImports.biome": true,
+      },
+    },
+    "TypeScript": {
+      "formatter": { "language_server": { "name": "biome" } },
+      "code_actions_on_format": {
+        "source.organizeImports.biome": true,
+      },
+    },
+  },
+}
